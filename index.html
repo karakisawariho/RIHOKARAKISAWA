@@ -4,13 +4,23 @@
 <meta charset="UTF-8">
 <title>期末課題</title>
 <link rel="stylesheet" href="mystyle.css">
-</head>
+<script src="myjs.js"></script>
+<!--この行を追加-->
+ <script src="ex1-1.js"></script>
+ <link rel="stylesheet" href="imagechange.css">
+ </head>
 <body>
 <link rel="stylesheet" href="style.css">
 <h1>RIIZE公式JAPANホームページ</h1>
 <a href="https://riizeofficial.jp/">
 <img src="./image/OIP.jpg" alt="riize"></a>  
 
+
+  <p>RIIZE</p>
+ <input type="button" value="画像の変更" onclick="imgchange1();">
+ <img src='./image/3b.jpg' id="id" alt="id" class="imagechange">
+ <input type="button" value="元に戻す" onclick="imgchange2();">
+ 
 <table>
  <caption>
   <strong class="important">メンバー紹介</strong>
@@ -30,5 +40,8 @@
 
 <h2>私の推し</h2>
 <a href="a.html">アントン</a>
+
+
+
 </body>
 </html>
